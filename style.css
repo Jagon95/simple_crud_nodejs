@@ -1,0 +1,70 @@
+body {
+    font-family: 'Droid Serif', serif;
+    font-weight: 700;
+    background-color: #f9f9f9;
+}
+
+form {
+    /*margin-left: 10em;*/
+    width: 20em;
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    position: relative;
+    left: 10em;
+    -webkit-appearance: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Droid Serif', serif;
+    font-weight: 700;
+    margin: 10px 0;
+    width: 50%;
+    background-color: #eee;
+    color: #555;
+    padding: 5px 10px;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 1px;
+    border: 1px solid #777;
+}
+
+label {
+    box-sizing: border-box;
+    padding-left: 1ex;
+    position: relative;
+    right: 0;
+    width: 50%;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #888;
+
+    transition: right 250ms ease, color 250ms ease;
+}
+
+input:focus + label, input:valid + label {
+    right: 10em;
+    color: #ccc;
+}
+
+li {
+    list-style-type: none;
+}
+
+input[type="submit"], button {
+    display: inline;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 10px;
+
+    font-family: 'Droid Serif', serif;
+    font-weight: 700;
+    padding: 5px 10px;
+    font-size: 16px;
+    background: #eee;
+    color: #555;
+    position: relative;
+    border: 1px solid #777;
+}
